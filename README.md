@@ -48,9 +48,11 @@ We are using the **Iris dataset**, which contains the following features:
 ## ⚙️ Installation
 
 ### 1. **Clone Repository**
-```bash
+
 git clone https://github.com/your-username/Iris-ANN-Project.git
 cd Iris-ANN-Project
+
+---
 
 🚀 Model Training
 
@@ -66,6 +68,8 @@ Save the trained model and scaler
 
 python train_model.py
 
+---
+
 Outputs after training:
 
 iris_ann_model.h5 → Trained ANN model
@@ -73,6 +77,8 @@ iris_ann_model.h5 → Trained ANN model
 iris_scaler.pkl → Scaler for future predictions
 
 label_map.pkl → Mapping for target labels
+
+---
 
 📈 Metrics & Visualization
 
@@ -84,6 +90,8 @@ Classification Report
 
 Confusion Matrix Heatmap
 
+---
+
 📌 Future Improvements
 
 Deploy the Gradio app on Hugging Face Spaces or Streamlit Cloud.
@@ -91,6 +99,8 @@ Deploy the Gradio app on Hugging Face Spaces or Streamlit Cloud.
 Experiment with different ANN architectures or hyperparameter tuning.
 
 Add cross-validation for better model evaluation.
+
+---
 
 🤝 Contributors
 KAVINKUMAR T – Developer & Maintainer
